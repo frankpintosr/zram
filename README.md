@@ -1,5 +1,5 @@
 # zram
-script to enable zram at boot
+This script will enable zram at boot
 
 Download the script and it will be saved to /usr/bin/zram.sh
 ```
