@@ -1,5 +1,6 @@
 # zram
-This script will enable zram at boot
+
+Thank you to https://github.com/ric96/zram for the process and original scripts.  I made some changes to the scripts and added some additional instructions.  Follow this process to enable zram at boot and set 1.5GB for the swap file.
 
 Download the script and it will be saved to /usr/bin/zram.sh
 ```
