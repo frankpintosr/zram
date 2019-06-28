@@ -4,7 +4,7 @@ Thank you to https://github.com/ric96/zram for the process and original scripts.
 
 Download the script and it will be saved to /usr/bin/zram.sh
 ```
-sudo wget -O /usr/bin/zram.sh https://github.com/frankpintosr/zram.git
+sudo wget -O /usr/bin/zram.sh https://raw.githubusercontent.com/frankpintosr/zram/master/zram.sh
 ```
 Make the file executable
 ```
