@@ -10,15 +10,16 @@ Make the file executable
 ```
 sudo chmod +x /usr/bin/zram.sh
 ```
-edit /etc/rc.local file to run script on boot
+#Backup and download a new rc.local file
 ```
-sudo nano /etc/rc.local
+sudo cp /usr/bin/rc.local /usr/bin/rc.local.backup
+sudo wget -O /usr/bin/rc.local https://raw.githubusercontent.com/frankpintosr/zram/master/rc.local
 ```
-add line before exit 0
+Reboot and enjoy
 ```
-/usr/bin/zram.sh &
+sudo reboot now
 ```
-Note: If there are existing uncommented entrees in the rc.local file, add & after each one.  My config file has an entry for bluetooth, so I added & after that line. The below example is my rc.local file
+Note: If there are existing uncommented entrees in the rc.local file, add & after each one.  My config file has an entry for bluetooth, so I added & after that line. Your rc.local may not have any additional lines or commands.  The below example is my rc.local file
 ```
 #!/bin/sh -e
 #
